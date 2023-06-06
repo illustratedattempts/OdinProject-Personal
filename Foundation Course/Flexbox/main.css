@@ -24,8 +24,6 @@ li{
 }
 
 #header_container{
-    
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -185,6 +183,8 @@ li{
 }
 
 #action-box{
+    height: 150px;
+    flex-grow: .50;
     border-radius: 10px;
     background-color: #3882F6;
 }
@@ -224,6 +224,20 @@ li{
 #bottom-text{
     font-weight: 100;
     font-size: 18px;
+}
+
+#footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 150px;
+}
+
+#footer-text{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------*/
